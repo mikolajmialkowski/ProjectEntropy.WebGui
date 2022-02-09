@@ -1,0 +1,45 @@
+entity Cryptocurrency {
+	name String,
+    pair String,
+    symbol String,
+    price String,
+}
+
+entity Result {
+    dateFrom String,
+    dateTo String,
+    duration String, 
+    currentPrice String,
+    predictedPraice String,
+    probability String,
+}
+
+entity SchedulerSettings {
+	interval String,
+    limit String,
+}
+
+entity ApiSettings {
+	apiUri1 String,
+    apiUri2 String,
+    apiUri3 String,
+    apiToken String,
+}
+
+entity AiSettings {
+}
+
+entity GeneralInfo{
+	recordsInDataBaseAmount BigDecimal,
+    apiCallsAmount BigDecimal,
+    apiStatistics String,
+}
+
+relationship OneToMany {
+	Cryptocurrency to Result{cryptocurrency},
+}
+
+
+
+
+
