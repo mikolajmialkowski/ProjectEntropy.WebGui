@@ -1,0 +1,26 @@
+{
+  "entropyApp": {
+    "generalInfo": {
+      "home": {
+        "title": "General Info",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj General Info",
+        "createOrEditLabel": "Dodaj lub edytuj: General Info",
+        "notFound": "No General Infos found"
+      },
+      "created": "Utworzono nowy obiekt typu General Info z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu General Info z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu General Info z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć General Info {{ id }}?"
+      },
+      "detail": {
+        "title": "General Info"
+      },
+      "id": "ID",
+      "recordsInDataBaseAmount": "Records In Data Base Amount",
+      "apiCallsAmount": "Api Calls Amount",
+      "apiStatistics": "Api Statistics"
+    }
+  }
+}

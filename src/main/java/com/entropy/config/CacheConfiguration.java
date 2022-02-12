@@ -51,6 +51,13 @@ public class CacheConfiguration {
             createCache(cm, com.entropy.domain.User.class.getName());
             createCache(cm, com.entropy.domain.Authority.class.getName());
             createCache(cm, com.entropy.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.entropy.domain.Cryptocurrency.class.getName());
+            createCache(cm, com.entropy.domain.Cryptocurrency.class.getName() + ".predictions");
+            createCache(cm, com.entropy.domain.Prediction.class.getName());
+            createCache(cm, com.entropy.domain.SchedulerSettings.class.getName());
+            createCache(cm, com.entropy.domain.ApiSettings.class.getName());
+            createCache(cm, com.entropy.domain.AiSettings.class.getName());
+            createCache(cm, com.entropy.domain.GeneralInfo.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

@@ -1,0 +1,39 @@
+{
+  "applications": "*",
+  "changelogDate": "20220212201236",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "cryptocurrency",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "pair",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "symbol",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Cryptocurrency",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "prediction",
+      "otherEntityRelationshipName": "cryptocurrency",
+      "relationshipName": "prediction",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

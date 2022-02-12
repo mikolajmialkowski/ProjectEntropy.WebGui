@@ -1,0 +1,25 @@
+{
+  "entropyApp": {
+    "schedulerSettings": {
+      "home": {
+        "title": "Scheduler Settings",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Scheduler Settings",
+        "createOrEditLabel": "Create or edit a Scheduler Settings",
+        "notFound": "No Scheduler Settings found"
+      },
+      "created": "A new Scheduler Settings is created with identifier {{ param }}",
+      "updated": "A Scheduler Settings is updated with identifier {{ param }}",
+      "deleted": "A Scheduler Settings is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Scheduler Settings {{ id }}?"
+      },
+      "detail": {
+        "title": "Scheduler Settings"
+      },
+      "id": "ID",
+      "interval": "Interval",
+      "limit": "Limit"
+    }
+  }
+}

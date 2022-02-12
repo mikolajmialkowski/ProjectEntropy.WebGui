@@ -1,0 +1,28 @@
+{
+  "entropyApp": {
+    "cryptocurrency": {
+      "home": {
+        "title": "Cryptocurrency",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Cryptocurrency",
+        "createOrEditLabel": "Dodaj lub edytuj: Cryptocurrency",
+        "notFound": "No Cryptocurrencies found"
+      },
+      "created": "Utworzono nowy obiekt typu Cryptocurrency z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Cryptocurrency z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Cryptocurrency z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Cryptocurrency {{ id }}?"
+      },
+      "detail": {
+        "title": "Cryptocurrency"
+      },
+      "id": "ID",
+      "name": "Name",
+      "pair": "Pair",
+      "symbol": "Symbol",
+      "price": "Price",
+      "prediction": "Prediction"
+    }
+  }
+}

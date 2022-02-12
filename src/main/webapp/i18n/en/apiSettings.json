@@ -1,0 +1,27 @@
+{
+  "entropyApp": {
+    "apiSettings": {
+      "home": {
+        "title": "Api Settings",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Api Settings",
+        "createOrEditLabel": "Create or edit a Api Settings",
+        "notFound": "No Api Settings found"
+      },
+      "created": "A new Api Settings is created with identifier {{ param }}",
+      "updated": "A Api Settings is updated with identifier {{ param }}",
+      "deleted": "A Api Settings is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Api Settings {{ id }}?"
+      },
+      "detail": {
+        "title": "Api Settings"
+      },
+      "id": "ID",
+      "apiUri1": "Api Uri 1",
+      "apiUri2": "Api Uri 2",
+      "apiUri3": "Api Uri 3",
+      "apiToken": "Api Token"
+    }
+  }
+}

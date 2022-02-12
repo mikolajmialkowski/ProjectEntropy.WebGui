@@ -1,0 +1,23 @@
+{
+  "entropyApp": {
+    "aiSettings": {
+      "home": {
+        "title": "Ai Settings",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Ai Settings",
+        "createOrEditLabel": "Dodaj lub edytuj: Ai Settings",
+        "notFound": "No Ai Settings found"
+      },
+      "created": "Utworzono nowy obiekt typu Ai Settings z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Ai Settings z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Ai Settings z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Ai Settings {{ id }}?"
+      },
+      "detail": {
+        "title": "Ai Settings"
+      },
+      "id": "ID"
+    }
+  }
+}
