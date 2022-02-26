@@ -1,0 +1,24 @@
+{
+  "applications": "*",
+  "changelogDate": "20220226134353",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "scheduler_settings",
+  "fields": [
+    {
+      "fieldName": "interval",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "limit",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "SchedulerSettings",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

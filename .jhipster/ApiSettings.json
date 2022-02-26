@@ -1,0 +1,32 @@
+{
+  "applications": "*",
+  "changelogDate": "20220226134354",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "api_settings",
+  "fields": [
+    {
+      "fieldName": "apiUri1",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "apiUri2",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "apiUri3",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "apiToken",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "ApiSettings",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

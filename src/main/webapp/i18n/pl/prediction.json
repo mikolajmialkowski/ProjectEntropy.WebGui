@@ -1,0 +1,30 @@
+{
+  "entropyApp": {
+    "prediction": {
+      "home": {
+        "title": "Prediction",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Prediction",
+        "createOrEditLabel": "Dodaj lub edytuj: Prediction",
+        "notFound": "No Predictions found"
+      },
+      "created": "Utworzono nowy obiekt typu Prediction z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Prediction z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Prediction z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Prediction {{ id }}?"
+      },
+      "detail": {
+        "title": "Prediction"
+      },
+      "id": "ID",
+      "dateFrom": "Date From",
+      "dateTo": "Date To",
+      "duration": "Duration",
+      "currentPrice": "Current Price",
+      "predictedPrice": "Predicted Price",
+      "probability": "Probability",
+      "cryptocurrency": "Cryptocurrency"
+    }
+  }
+}

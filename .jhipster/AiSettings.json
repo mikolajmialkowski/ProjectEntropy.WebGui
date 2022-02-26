@@ -1,0 +1,15 @@
+{
+  "applications": "*",
+  "changelogDate": "20220226134355",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "ai_settings",
+  "fields": [],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "AiSettings",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

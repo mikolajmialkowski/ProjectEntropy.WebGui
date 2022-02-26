@@ -1,0 +1,47 @@
+{
+  "applications": "*",
+  "changelogDate": "20220226134352",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "prediction",
+  "fields": [
+    {
+      "fieldName": "dateFrom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateTo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "duration",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "currentPrice",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "predictedPrice",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "probability",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Prediction",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "cryptocurrency",
+      "otherEntityRelationshipName": "prediction",
+      "relationshipName": "cryptocurrency",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

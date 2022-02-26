@@ -1,0 +1,28 @@
+{
+  "applications": "*",
+  "changelogDate": "20220226134356",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "general_info",
+  "fields": [
+    {
+      "fieldName": "recordsInDataBaseAmount",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "apiCallsAmount",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "apiStatistics",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "GeneralInfo",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}
